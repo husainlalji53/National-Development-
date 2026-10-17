@@ -1,0 +1,728 @@
+{
+  "coveralls": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 1,
+    "row": 1
+  },
+  "disposable-coveralls": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 2,
+    "row": 1
+  },
+  "workwear": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 3,
+    "row": 1
+  },
+  "helmets": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 1,
+    "row": 2
+  },
+  "goggles": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 2,
+    "row": 2
+  },
+  "welding-gloves": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 3,
+    "row": 2
+  },
+  "gloves": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 1,
+    "row": 3
+  },
+  "safety-vests": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 2,
+    "row": 3
+  },
+  "caution-tape": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 3,
+    "row": 3
+  },
+  "first-aid": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 1,
+    "row": 4
+  },
+  "respirators": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 2,
+    "row": 4
+  },
+  "safety-shoes": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 3,
+    "row": 4
+  },
+  "mask-cartridges": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 1,
+    "row": 5
+  },
+  "harnesses": {
+    "source": "national-development-profile.pdf",
+    "page": 4,
+    "column": 2,
+    "row": 5
+  },
+  "cables": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 1
+  },
+  "cable-reels": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 1
+  },
+  "led-bulbs": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 1
+  },
+  "electrical-tape": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 2
+  },
+  "connectors": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 2
+  },
+  "switches": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 2
+  },
+  "male-female-connectors": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 3
+  },
+  "plugs-sockets": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 3
+  },
+  "cable-ties": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 3
+  },
+  "grinders": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 4
+  },
+  "drills": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 4
+  },
+  "sanders": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 4
+  },
+  "blowers": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 5
+  },
+  "jigsaws": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 5
+  },
+  "welding-machines": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 5
+  },
+  "heat-guns": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 6
+  },
+  "rotary-hammers": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 6
+  },
+  "circular-saws": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 6
+  },
+  "impact-drills": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 1,
+    "row": 7
+  },
+  "mini-chain-saws": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 2,
+    "row": 7
+  },
+  "laser-levels": {
+    "source": "national-development-profile.pdf",
+    "page": 5,
+    "column": 3,
+    "row": 7
+  },
+  "spanners": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 1,
+    "row": 1
+  },
+  "allen-keys": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 2,
+    "row": 1
+  },
+  "pipe-wrenches": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 3,
+    "row": 1
+  },
+  "cutters": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 1,
+    "row": 2
+  },
+  "hammers": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 2,
+    "row": 2
+  },
+  "clamps": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 3,
+    "row": 2
+  },
+  "screwdrivers": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 1,
+    "row": 3
+  },
+  "door-locks": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 2,
+    "row": 3
+  },
+  "wire-net": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 3,
+    "row": 3
+  },
+  "tool-boxes": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 1,
+    "row": 4
+  },
+  "bench-vises": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 2,
+    "row": 4
+  },
+  "nail-guns": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 3,
+    "row": 4
+  },
+  "wire-brushes": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 1,
+    "row": 5
+  },
+  "scissors": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 2,
+    "row": 5
+  },
+  "levels": {
+    "source": "national-development-profile.pdf",
+    "page": 6,
+    "column": 3,
+    "row": 5
+  },
+  "black-bolts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 1,
+    "row": 1
+  },
+  "bolts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 2,
+    "row": 1
+  },
+  "socket-bolts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 3,
+    "row": 1
+  },
+  "cross-bolts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 1,
+    "row": 2
+  },
+  "anchors": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 2,
+    "row": 2
+  },
+  "kirby-screws": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 3,
+    "row": 2
+  },
+  "washers": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 1,
+    "row": 3
+  },
+  "screws": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 2,
+    "row": 3
+  },
+  "u-bolts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 3,
+    "row": 3
+  },
+  "chains": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 1,
+    "row": 4
+  },
+  "nuts": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 2,
+    "row": 4
+  },
+  "wire-clamps": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 3,
+    "row": 4
+  },
+  "nails": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 1,
+    "row": 5
+  },
+  "threaded-rods": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 2,
+    "row": 5
+  },
+  "wall-anchors": {
+    "source": "national-development-profile.pdf",
+    "page": 7,
+    "column": 3,
+    "row": 5
+  },
+  "paints": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 1,
+    "row": 1
+  },
+  "wd40": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 1,
+    "row": 2
+  },
+  "paint-brushes": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 2,
+    "row": 2
+  },
+  "spray-paints": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 3,
+    "row": 2
+  },
+  "paint-removers": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 1,
+    "row": 3
+  },
+  "adhesive-tapes": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 2,
+    "row": 3
+  },
+  "silicone": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 3,
+    "row": 3
+  },
+  "bonding-adhesives": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 1,
+    "row": 4
+  },
+  "crc": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 2,
+    "row": 4
+  },
+  "plastic-rolls": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 3,
+    "row": 4
+  },
+  "spray-guns": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 1,
+    "row": 5
+  },
+  "super-glue": {
+    "source": "national-development-profile.pdf",
+    "page": 8,
+    "column": 2,
+    "row": 5
+  },
+  "welding-rods": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 1,
+    "row": 1
+  },
+  "welding-holders": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 2,
+    "row": 1
+  },
+  "welding-cables": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 3,
+    "row": 1
+  },
+  "welding-torches": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 1,
+    "row": 2
+  },
+  "oxygen-regulators": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 2,
+    "row": 2
+  },
+  "argon-regulators": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 3,
+    "row": 2
+  },
+  "cutting-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 1,
+    "row": 3
+  },
+  "grinding-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 2,
+    "row": 3
+  },
+  "grinding-stones": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 3,
+    "row": 3
+  },
+  "diamond-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 1,
+    "row": 4
+  },
+  "wire-brush-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 2,
+    "row": 4
+  },
+  "wood-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 3,
+    "row": 4
+  },
+  "sandpaper": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 1,
+    "row": 5
+  },
+  "flap-discs": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 2,
+    "row": 5
+  },
+  "router-bits": {
+    "source": "national-development-profile.pdf",
+    "page": 9,
+    "column": 3,
+    "row": 5
+  },
+  "shackles-hooks": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 1,
+    "row": 1
+  },
+  "lifting-belts": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 2,
+    "row": 1
+  },
+  "chain-boomers": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 3,
+    "row": 1
+  },
+  "wire-slings": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 1,
+    "row": 2
+  },
+  "repair-kits": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 1,
+    "row": 1
+  },
+  "wheel-wrenches": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 2,
+    "row": 1
+  },
+  "air-hoses": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 3,
+    "row": 1
+  },
+  "jacks": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 1,
+    "row": 2
+  },
+  "booster-cables": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 2,
+    "row": 2
+  },
+  "tyre-patches": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 3,
+    "row": 2
+  },
+  "tube-patches": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 1,
+    "row": 3
+  },
+  "valve-removers": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 2,
+    "row": 3
+  },
+  "couplings": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 3,
+    "row": 3
+  },
+  "fastener-clips": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 1,
+    "row": 4
+  },
+  "multimeters": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 2,
+    "row": 4
+  },
+  "battery-accessories": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 3,
+    "row": 4
+  },
+  "oil-filter-range": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 1,
+    "row": 5
+  },
+  "work-lamps": {
+    "source": "national-development-profile.pdf",
+    "page": 10,
+    "column": 2,
+    "row": 5
+  },
+  "suction-lifters": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 2,
+    "row": 2
+  },
+  "ladders": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 3,
+    "row": 2
+  },
+  "castor-wheels": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 1,
+    "row": 3
+  },
+  "trolleys": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 2,
+    "row": 3
+  },
+  "cotton-rags": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 3,
+    "row": 3
+  },
+  "tarpaulins": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 2,
+    "row": 4
+  },
+  "nylon-ropes": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 3,
+    "row": 4
+  },
+  "soldering-kits": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 2,
+    "row": 5
+  },
+  "hoses": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 1,
+    "row": 4
+  },
+  "water-filters": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 1,
+    "row": 5
+  },
+  "plumbing": {
+    "source": "national-development-profile.pdf",
+    "page": 11,
+    "column": 3,
+    "row": 5
+  }
+}

@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+*.tgz
+*.tar.gz
+tmp/
+
+
+*.zip
+Thumbs.db
+__pycache__/

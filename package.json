@@ -1,0 +1,10 @@
+{
+  "name": "national-development-hardware",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual website, product catalogue and enquiry builder for National Development",
+  "scripts": {
+    "check": "node --check dist/content.js && node --check dist/catalog-data.js && node --check dist/catalog-translations.js && node --check dist/catalog-core.js && node --check dist/app.js && node --check dist/catalogue.js && node scripts/check.mjs && node --test scripts/catalogue.test.mjs",
+    "start": "python -m http.server 3000 --directory dist"
+  }
+}
