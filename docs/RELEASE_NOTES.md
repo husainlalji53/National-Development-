@@ -1,3 +1,16 @@
+# Release 1.1.0 — public-domain SEO update
+
+Public URL: https://national-development-building-mater.vercel.app/
+
+- Removed the preview indexing restriction from the homepage, catalogue and product template.
+- Kept enquiry, search/filter results and invalid product pages out of search results.
+- Added canonical URLs, language alternatives, robots.txt and a 256-URL bilingual sitemap.
+- Added HardwareStore structured data using only supplied business details.
+- Added Vercel root configuration for the static `dist` output and deployment/Search Console instructions.
+- All 13 Node tests and source checks passed. Live Vercel verification and visual browser QA remain unverified. Search indexing/ranking are not guaranteed.
+
+The notes below describe the previous development release; its public-indexing instructions have been superseded.
+
 # Release 1.0.0 — 17 October 2026
 
 ## Completed development phases
@@ -20,13 +33,9 @@ Passed JavaScript syntax checks and source integrity checks across all four HTML
 
 Visual browser automation was unavailable. This is not a browser-tested or accessibility-certified release. Before customer launch, review both languages on a phone and desktop, exercise keyboard navigation, and send a sample enquiry from your own email client. Confirm the saved item list survives a refresh and the provided Maps link opens the correct shop.
 
-## Public launch decisions
+## Superseded public-launch notes
 
-The current hosted site remains owner-private. Its HTML has `noindex,nofollow`; that directive is not access control when you upload the files to another host.
-
-Confirm the final public domain, business wording in Arabic, full opening hours and any delivery terms before public release. Exact stock, prices, models and delivery promises have not been invented. Two broad brochure descriptions, “Battery accessories” and “Oil filter range”, should be confirmed if you want more precise naming.
-
-Once the domain and public launch are approved, remove `noindex,nofollow` from all four HTML files, update the corresponding private-preview assertion in `scripts/check.mjs`, and add canonical URLs, sitemap and verified structured business data appropriate to that domain. Do not replace domain placeholders with guessed values.
+Release 1.1.0 replaces the original private-preview indexing configuration for the owner-supplied Vercel URL. Follow `VERCEL_AND_GOOGLE.md`; do not follow older instructions to remove robots tags manually. The original Sites audience remains private. Vercel must receive the new files before this update is live there.
 
 ## Assets and operation
 

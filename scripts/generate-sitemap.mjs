@@ -1,0 +1,13 @@
+import {readFileSync, writeFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {resolve, dirname, join} from 'node:path';
+import vm from 'node:vm';
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const context = {window:{}, URL, URLSearchParams};
+for (const file of ['catalog-data.js','seo.js']) vm.runInNewContext(readFileSync(join(root,'dist',file),'utf8'), context);
+const {origin,entries} = context.window.ND_SEO;
+const xml = value => value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+const urls = entries().map(entry => `  <url>\n    <loc>${xml(entry.canonical)}</loc>\n    <xhtml:link rel="alternate" hreflang="en" href="${xml(entry.en)}"/>\n    <xhtml:link rel="alternate" hreflang="ar" href="${xml(entry.ar)}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${xml(entry.en)}"/>\n  </url>`);
+writeFileSync(join(root,'dist/sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
+writeFileSync(join(root,'dist/robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`);
+console.log(`Generated sitemap with ${urls.length} English/Arabic URLs.`);

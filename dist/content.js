@@ -11,7 +11,7 @@ window.ND_CONTENT = {
   },
   translations: {
     en: {
-      pageTitle: 'National Development | Building Material & Hardware',
+      pageTitle: 'National Development Building Material & Hardware | Kuwait',
       metaDescription: 'Explore safety equipment, tools, hardware and electrical supplies at National Development in Shuwaikh Industrial, Kuwait. Contact us or get directions.',
       skip: 'Skip to content', location: 'Shuwaikh Industrial, Kuwait', brand: 'NATIONAL DEVELOPMENT', brandSub: 'BUILDING MATERIAL & HARDWARE',
       homeLabel: 'National Development home', mainNav: 'Main navigation', mobileNav: 'Mobile navigation', footerNav: 'Footer navigation',
@@ -39,7 +39,7 @@ window.ND_CONTENT = {
       resultLabel: 'matching categories', categorySuffix: 'Category'
     },
     ar: {
-      pageTitle: 'التنمية الوطنية | مواد البناء والأدوات',
+      pageTitle: 'التنمية الوطنية | مواد البناء والأدوات في الكويت',
       metaDescription: 'اكتشف معدات السلامة والأدوات ومواد البناء والمستلزمات الكهربائية لدى التنمية الوطنية في الشويخ الصناعية، الكويت. تواصل معنا أو احصل على الاتجاهات.',
       skip: 'انتقل إلى المحتوى', location: 'الشويخ الصناعية، الكويت', brand: 'التنمية الوطنية', brandSub: 'مواد البناء والأدوات',
       homeLabel: 'التنمية الوطنية — الصفحة الرئيسية', mainNav: 'القائمة الرئيسية', mobileNav: 'قائمة الهاتف', footerNav: 'روابط أسفل الصفحة',

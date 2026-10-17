@@ -36,8 +36,9 @@ for (const file of pages) {
     assert.ok(linked.includes(`id="${hash}"`), `Missing cross-page anchor ${target}#${hash}`);
   }
   assert.ok(html.includes('name="viewport"'), `Missing mobile viewport in ${file}`);
-  assert.ok(html.includes('noindex,nofollow'), `Private review must stay unindexed: ${file}`);
-  for (const script of ['content.js', 'catalog-data.js', 'catalog-translations.js', 'catalog-core.js', 'app.js', 'catalogue.js']) assert.ok(html.includes(`src="./${script}"`), `Missing script ${script} in ${file}`);
+  const robots = html.match(/<meta name="robots" content="([^"]+)"/)[1];
+  assert.equal(robots.includes('noindex'), file === 'enquiry.html', `Incorrect public indexing rule: ${file}`);
+  for (const script of ['content.js', 'catalog-data.js', 'catalog-translations.js', 'catalog-core.js', 'app.js', 'catalogue.js', 'seo.js']) assert.ok(html.includes(`src="./${script}"`), `Missing script ${script} in ${file}`);
 }
 for (const file of ['styles.css', 'catalogue.css']) {
   const css = readFileSync(join(dist, file), 'utf8');

@@ -161,6 +161,7 @@
       if (catalogState.page > 1) url.searchParams.set('page', catalogState.page);
       url.searchParams.set('lang', lang());
       history[push ? 'pushState' : 'replaceState'](null, '', url);
+      window.ND_SEO?.update();
     } catch { /* Restricted embeds still support in-page filtering. */ }
   }
   function renderCatalog() {
@@ -213,6 +214,7 @@
     $('meta[name="description"]').content = description;
     $('meta[property="og:title"]').content = title;
     $('meta[property="og:description"]').content = description;
+    window.ND_SEO?.update();
   }
   function resetFilters() {
     catalogState = { query: '', category: 'all', sort: 'range', page: 1 };

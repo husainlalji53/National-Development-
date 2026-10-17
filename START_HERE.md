@@ -1,6 +1,6 @@
 # National Development — website source
 
-Version 1.0.0 · 17 October 2026
+Version 1.1.0 · 17 October 2026
 
 ## Open the website on your Windows computer
 
@@ -48,4 +48,4 @@ npm.cmd run check
 
 The website does not send email itself. Customers review their enquiry and send it through their email application. Copy and download work as alternatives. Email validation checks format, not mailbox ownership or deliverability. Item selections are saved in the customer's browser; contact form details are not persisted by the site.
 
-This handoff contains the complete website source. Public hosting and domain setup are separate. The current hosted preview is private, and the HTML retains `noindex,nofollow`. See `docs/RELEASE_NOTES.md` for verification and the remaining public-launch decisions.
+This handoff contains the complete website source. Public hosting and domain setup are separate. This update is configured for https://national-development-building-mater.vercel.app/. The original Sites preview remains private, but public pages in this package now permit indexing. Upload/redeploy this version to Vercel; creating this ZIP does not update your Vercel account. Start with `VERCEL_AND_GOOGLE.md` for deployment and Search Console instructions.
