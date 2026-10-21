@@ -1,4 +1,11 @@
+# National Development Building Material and Hardware, Kuwait
+# Allow crawling of pages, images, CSS and JavaScript needed to render the site.
 User-agent: *
 Allow: /
 
+# Public English and Arabic pages.
 Sitemap: https://national-development-building-mater.vercel.app/sitemap.xml
+
+# Enquiry and filtered-search pages use noindex in their page metadata.
+# Leave them crawlable so search engines can read those directives.
+# robots.txt controls crawling; it does not protect private data.
