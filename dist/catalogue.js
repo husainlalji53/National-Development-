@@ -78,6 +78,11 @@
     updateBadges();
     if (storageFailed) announce(t('storageWarning'));
   }
+  function addCheck(node, animate = true) {
+    const check = el('span', `enquiry-check${animate ? ' is-fresh' : ''}`, '✓');
+    check.setAttribute('aria-hidden', 'true');
+    node.prepend(check);
+  }
   function updateBadges() {
     document.querySelectorAll('[data-enquiry-count]').forEach(node => {
       node.textContent = items.length;
@@ -85,7 +90,9 @@
     });
     document.querySelectorAll('[data-add]').forEach(node => {
       const selected = items.some(item => item.id === node.dataset.add);
+      const newlyAdded = selected && !node.classList.contains('is-added');
       node.textContent = t(selected ? 'inEnquiry' : 'addEnquiry');
+      if (selected) addCheck(node, newlyAdded);
       node.classList.toggle('is-added', selected);
       node.setAttribute('aria-label', `${t(selected ? 'viewEnquiry' : 'addEnquiry')}: ${core.byId.get(node.dataset.add)[lang()]}`);
     });
@@ -262,6 +269,7 @@
       const alreadySelected = items.some(item => item.id === product.id);
       saveItems(core.upsertItem(items, { id: product.id, qty: qty.value, unit: unit.value, note: note.value }));
       submit.textContent = t('updateEnquiry');
+      addCheck(submit);
       if (!storageFailed) announce(t(alreadySelected ? 'updatedMessage' : 'addedMessage'));
       $('#detail-enquiry-link').hidden = false;
     });

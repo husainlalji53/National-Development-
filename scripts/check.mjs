@@ -9,7 +9,9 @@ const dist = join(project, 'dist');
 const context = { window: {} };
 for (const file of ['content.js', 'catalog-data.js', 'catalog-translations.js']) vm.runInNewContext(readFileSync(join(dist, file), 'utf8'), context);
 const { translations, business, categories } = context.window.ND_CONTENT;
-const pages = readdirSync(dist).filter(file => file.endsWith('.html'));
+const verification = 'google2fcf286b46cbfe37.html';
+assert.equal(readFileSync(join(dist, verification), 'utf8').trim(), `google-site-verification: ${verification}`);
+const pages = readdirSync(dist).filter(file => file.endsWith('.html') && file !== verification);
 let elements = 0;
 for (const file of pages) {
   const html = readFileSync(join(dist, file), 'utf8');
@@ -38,9 +40,9 @@ for (const file of pages) {
   assert.ok(html.includes('name="viewport"'), `Missing mobile viewport in ${file}`);
   const robots = html.match(/<meta name="robots" content="([^"]+)"/)[1];
   assert.equal(robots.includes('noindex'), file === 'enquiry.html', `Incorrect public indexing rule: ${file}`);
-  for (const script of ['content.js', 'catalog-data.js', 'catalog-translations.js', 'catalog-core.js', 'app.js', 'catalogue.js', 'seo.js']) assert.ok(html.includes(`src="./${script}"`), `Missing script ${script} in ${file}`);
+  for (const script of ['content.js', 'catalog-data.js', 'catalog-translations.js', 'catalog-core.js', 'app.js', 'catalogue.js', 'seo.js', 'motion.js']) assert.ok(html.includes(`src="./${script}"`), `Missing script ${script} in ${file}`);
 }
-for (const file of ['styles.css', 'catalogue.css']) {
+for (const file of ['styles.css', 'catalogue.css', 'motion.css']) {
   const css = readFileSync(join(dist, file), 'utf8');
   for (const [, asset] of css.matchAll(/url\(['"]?\.\/([^)'"?]+)['"]?\)/g)) assert.ok(existsSync(join(dist, asset)), `Missing CSS asset: ${asset}`);
   assert.ok(css.includes('prefers-reduced-motion'), `Missing reduced motion support: ${file}`);

@@ -1,0 +1,25 @@
+/* Content remains visible without JavaScript and with reduced motion. */
+.hero h1 .hero-word{display:inline-block;font:inherit;animation:nd-word-in .65s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--word-delay,0ms)}
+@keyframes nd-word-in{from{opacity:0;transform:translateY(.3em)}to{opacity:1;transform:none}}
+.hero-rotator{display:flex;align-items:center;gap:12px;margin:-5px 0 22px;max-width:100%;color:var(--gold-light);font-size:14px}
+.rotator-copy{min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 8px}
+.rotator-track{display:grid;overflow:hidden;min-inline-size:18ch;line-height:1.8}
+.rotator-track>span{grid-area:1/1;display:block}
+.word-arrive{animation:nd-word-in .45s ease both}
+.category-card.motion-wait{opacity:0;transform:translateY(22px)}
+.category-card.motion-entered{animation:nd-card-in .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--entry-delay,0ms)}
+@keyframes nd-card-in{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+.process-motion li{position:relative}
+.process-motion li::before{content:'';position:absolute;inset-block-start:-1px;inset-inline:0;height:2px;background:var(--gold);transform-origin:left;transform:scaleX(1)}
+[dir=rtl] .process-motion li::before{transform-origin:right}
+.process-motion.motion-wait li::before{transform:scaleX(0)}
+.process-motion.motion-entered li::before{animation:nd-process .6s ease-out both}
+.process-motion.motion-entered li:nth-child(2)::before{animation-delay:.5s}
+.process-motion.motion-entered li:nth-child(3)::before{animation-delay:1s}
+@keyframes nd-process{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.enquiry-check{display:inline-block;margin-inline-end:6px;color:currentColor}
+.enquiry-check.is-fresh{animation:nd-check .35s ease-out both}
+@keyframes nd-check{from{opacity:0;transform:scale(.65)}to{opacity:1;transform:scale(1)}}
+@media(max-width:760px){.hero-rotator{font-size:12px;margin-bottom:18px}.rotator-track{min-inline-size:0}.process-motion li::before{inset-inline-start:0;inset-inline-end:auto;inset-block:23px -26px;width:2px;height:auto;transform-origin:top;transform:scaleY(1)}.process-motion li:last-child::before{inset-block-end:0}[dir=rtl] .process-motion li::before{transform-origin:top}.process-motion.motion-wait li::before{transform:scaleY(0)}.process-motion.motion-entered li::before{animation-name:nd-process-vertical}.process-motion .step-number{background:var(--paper);z-index:1}.rotator-copy{flex:1}}
+@keyframes nd-process-vertical{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@media(prefers-reduced-motion:reduce){.hero h1 .hero-word,.word-arrive,.category-card.motion-wait,.category-card.motion-entered,.enquiry-check.is-fresh{opacity:1;transform:none;animation:none!important}.process-motion li::before{transform:none!important;animation:none!important}}
